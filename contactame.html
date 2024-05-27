@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="css/contactame.css">
+</head>
+<body>
+    <header>
+        <img src="images/lego.jpg" alt="Logo de Lego">
+    </header>
+    <div class="contenedor">
+        <h2>Formulario de Contacto</h2>
+        <form action="#">
+            <div class="nombreCompleto">
+                <label id="labelNombre">Nombre:</label>
+                <label id="labelApellido">Apellido:</label><br>
+                <input type="text" name="nombre" id="textoNombre" required>
+                <input type="text" name="apellido" id="textoApellido" required>
+            </div>
+            <div class="grupo-form">
+                <label id="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="grupo-form">
+                <label id="mensaje">Articulos:</label>
+                <div id="articulosComprar"></div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="JS/carrito.js"></script>
+</body>
+</html>

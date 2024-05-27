@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #FFD500;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor {
+    width: 500px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 0px 20px 15px 20px;
+    background-color: white;
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+h2 {
+    background-color: cornflowerblue;
+    margin-top: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#labelNombre, #labelApellido{
+    display: inline;
+}
+
+#labelNombre{
+    margin-right: 187px;
+}
+
+.grupo-form{
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+#textoNombre, #textoApellido{
+    width: 220px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#textoNombre{
+    margin-right: 11px;
+}
+input[type="email"],
+textarea {
+    width: 477px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
